@@ -15,7 +15,13 @@ public class POO {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Carro meuCarro = new Carro();
+        double a=3, b=2;
+        System.out.println(""+Calculo.elevar(a, b));
+        
+        
+        
+        
+        /*Carro meuCarro = new Carro();
         meuCarro.setCor("preto");
         meuCarro.setNumPortas(4);
         meuCarro.setPlaca("QWE-1234");
@@ -36,7 +42,7 @@ public class POO {
         
         meuCarro.imprimeDadosDoCarro();
         aPessoa.imprimeDadosPessoa();
-        oBarco.imprimeDadosBarco();
+        oBarco.imprimeDadosBarco();*/
         
     }   
 }

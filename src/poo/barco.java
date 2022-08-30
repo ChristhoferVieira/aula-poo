@@ -19,7 +19,7 @@ public class barco {
         System.out.println("----------Barco---------");
         System.out.println("Cor: "+cor);
         System.out.println("Tipo: "+tipo);
-        System.out.println("tamanho em mts: "+tamanho);
+        System.out.println("Tamanho em mts: "+tamanho);
     }
     
     

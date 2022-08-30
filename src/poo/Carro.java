@@ -5,10 +5,6 @@
  */
 package poo;
 
-/**
- *
- * @author christhofer.vieira
- */
 public class Carro {
 
     String tipo;
