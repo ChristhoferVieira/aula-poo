@@ -16,7 +16,8 @@ public class Pessoa {
     int idade;
     
     void imprimeDadosPessoa(){
-    System.out.println("-------Pessoa------");
+        System.out.println("");
+        System.out.println("-------Pessoa------");
         System.out.println("Biotipo: "+bioTipo);
         System.out.println("Cor de cabelo: "+corCabelo);
         System.out.println("Idade: "+idade);

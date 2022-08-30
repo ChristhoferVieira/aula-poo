@@ -15,6 +15,7 @@ public class barco {
     double tamanho;
     
     void imprimeDadosBarco(){
+        System.out.println("");
         System.out.println("----------Barco---------");
         System.out.println("Cor: "+cor);
         System.out.println("Tipo: "+tipo);
