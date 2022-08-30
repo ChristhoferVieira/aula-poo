@@ -19,14 +19,24 @@ public class POO {
         meuCarro.setCor("preto");
         meuCarro.setNumPortas(4);
         meuCarro.setPlaca("QWE-1234");
-        meuCarro.setTipo("Gol");
+        meuCarro.setTipo("Gol");   
         
-        System.out.println("-----------CARRO-----------");
-        System.out.println("Cor: "+meuCarro.getCor());
-        System.out.println("Nº Portas: "+meuCarro.getNumPortas());
-        System.out.println("Placa: "+meuCarro.getPlaca());
-        System.out.println("Tipo: "+meuCarro.getTipo());
+        Pessoa aPessoa = new Pessoa();
+        aPessoa.setBioTipo("Magro");
+        aPessoa.setCorCabelo("Preto");
+        aPessoa.setIdade(28);
+        aPessoa.setNome("Christhofer");
         
-    }
-    
+        
+        barco oBarco = new barco();
+        oBarco.setCor("branco");
+        oBarco.setTipo("vela");
+        oBarco.setTipo(5.95);
+        
+        
+        meuCarro.imprimeDadosDoCarro();
+        aPessoa.imprimeDadosPessoa();
+        oBarco.imprimeDadosBarco();
+        
+    }   
 }

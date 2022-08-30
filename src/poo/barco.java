@@ -14,6 +14,13 @@ public class barco {
     String tipo;
     double tamanho;
     
+    void imprimeDadosBarco(){
+        System.out.println("----------Barco---------");
+        System.out.println("Cor: "+cor);
+        System.out.println("Tipo: "+tipo);
+        System.out.println("tamanho em mts: "+tamanho);
+    }
+    
     
     public String getCor() {
         return cor;
